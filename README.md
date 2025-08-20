@@ -1,57 +1,57 @@
-verview
+# Diamonds Market Analysis
 
-This project analyzes a sample of 500 diamonds to study the relationship between diamond price and its key characteristics (carat, depth, and table). The dataset is saved as Diamonds_sample.csv, and all analysis is done in R with the script Diamonds_analysis.R.
+## 📌 Overview
+This project analyzes a **sample of 500 diamonds** to study the relationship between diamond price and its key characteristics (carat, depth, and table).  
 
-The goal of this project is to practice basic data analysis techniques and develop a clear understanding of how statistical methods and visualization can reveal insights from raw data.
+- Dataset: `Diamonds_sample.csv`  
+- Code: `Diamonds_analysis.R`  
 
-Files
+The purpose of this project is to practice basic data analysis and gain an understanding of how visualization and statistical methods reveal patterns in real data.
 
-Diamonds_sample.csv → the dataset used for analysis
+---
 
-Diamonds_analysis.R → R script containing all analysis and plots
+## 📂 Files
+- **Diamonds_sample.csv** → dataset used for analysis  
+- **Diamonds_analysis.R** → R script with all code for analysis and plots  
 
-Methods
+---
 
-Data Sampling & Summary
+## 🔎 Methods
+1. **Data Sampling & Summary**
+   - Randomly selected 500 rows from the original dataset  
+   - Used `summary()` to describe main statistics  
 
-Randomly selected 500 rows from the original dataset
+2. **Exploratory Data Analysis (EDA)**
+   - Histogram and boxplot of price distribution  
+   - Grouped carat into intervals and calculated average price per group  
 
-Generated descriptive statistics with summary()
+3. **Correlation Analysis**
+   - Computed correlations between price and carat, depth, table  
+   - Visualized price vs. carat and price vs. depth with scatter plots  
 
-Exploratory Data Analysis (EDA)
+4. **Distribution Checks**
+   - Normality tests on depth and table using Shapiro-Wilk test  
+   - Q-Q plots to compare distributions  
 
-Visualized price distribution with histograms and boxplots
+---
 
-Grouped carat weight into intervals and calculated average prices
+## 📊 Key Findings
+- Price is **strongly correlated with carat weight** (≈ 0.9).  
+- Depth and table show **weak or no correlation** with price.  
+- Price distribution is **right-skewed**, with a few very high outliers.  
+- Average price rises quickly as carat group increases.  
 
-Correlation Analysis
+---
 
-Calculated correlations between price and variables (carat, depth, table)
+## 🛠 Skills Demonstrated
+- Data cleaning and sampling in **R**  
+- Visualization (histogram, boxplot, scatter plot)  
+- Statistical analysis & correlation testing  
+- Writing clear, reproducible analysis  
 
-Visualized price vs carat and price vs depth with scatter plots
+---
 
-Distribution Checks
-
-Tested normality of variables (depth, table) with Shapiro-Wilk test
-
-Used Q-Q plots to visualize distributional assumptions
-
-Key Findings
-
-Price is strongly correlated with carat weight (correlation ≈ 0.9).
-
-Depth and table show weak or almost no correlation with price.
-
-Price distribution is right-skewed, with a few very expensive outliers.
-
-Carat groups reveal that average price rises sharply as carat size increases.
-
-Skills Demonstrated
-
-Data cleaning and sampling in R
-
-Visualization using histograms, boxplots, and scatter plots
-
-Statistical analysis and correlation testing
-
-Writing reproducible analysis and structured reporting
+## ▶️ How to Run
+1. Download this repository  
+2. Open `Diamonds_analysis.R` in RStudio  
+3. Run the code to reproduce the analysis and plots  
