@@ -5,14 +5,24 @@ This project analyzes a **sample of 500 diamonds** to study the relationship bet
 
 - Dataset: `Diamonds_sample.csv`  
 - Code: `Diamonds_analysis.R`  
+- Report: `Diamonds_Report.pdf`  
 
 The purpose of this project is to practice basic data analysis and gain an understanding of how visualization and statistical methods reveal patterns in real data.
+
+---
+
+## 🎯 Objectives
+- Explore the distribution of diamond prices  
+- Identify correlations between price and physical characteristics  
+- Test assumptions about normality in selected variables  
+- Practice visualization and statistical methods in R  
 
 ---
 
 ## 📂 Files
 - **Diamonds_sample.csv** → dataset used for analysis  
 - **Diamonds_analysis.R** → R script with all code for analysis and plots  
+- **Diamonds_Report.pdf** → written report summarizing findings  
 
 ---
 
